@@ -1,0 +1,22 @@
+// Import font family
+
+@font-face {
+    font-family: 'Gibson';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Gibson'), local('Gibson'),
+         url('resources/font/Gibson-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+// Fonts
+
+$default-font-family    : 'Gibson';
+$default-font-size      : 16px;
+
+$font-weight-light      : 300;
+$font-weight-regular    : normal;
+$font-weight-medium		: 500;
+$font-weight-semibold   : 600;
+$font-weight-bold       : bold;
+
+// $default-font-weight    : $font-weight-regular;

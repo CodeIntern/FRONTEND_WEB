@@ -1,0 +1,27 @@
+/* ---------------------- */
+/*  Flex layout */
+/* ---------------------- */
+
+// Flex align text center default direction row
+.align-items-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+// Flex justify-content default direction row
+.justify-content-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+// Flex column
+.flex-column {
+    flex-direction: column !important;
+}
+
+// Text align 
+.text-align-center {
+    text-align: center;
+}

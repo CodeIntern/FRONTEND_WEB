@@ -1,0 +1,52 @@
+#menu {
+	height: 100%;
+	border: 1px solid $gray-239;
+	position: fixed;
+	width: 7%;
+
+	.title-box {
+		background-color: $blue-primary;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 60px;
+
+		.title {
+			font-family: "Gibson";
+			font-size: 18px;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.2;
+			margin: 0;
+			color: #ffffff;
+		}
+	}
+
+	.item-link {
+		text-decoration: none;
+
+		.item-box {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			margin-top: 30px;
+
+			p {
+				text-transform: uppercase; 
+				margin-top: 6px;
+				margin-bottom: 0;
+				font-family: "Gibson";
+				font-size: 10px;
+				font-weight: 600;
+				color: $gray-147;
+			}
+		}
+
+	}
+	.active {
+		p {
+			color: $blue-primary !important;
+		}
+	}
+}
